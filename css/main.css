@@ -18,6 +18,7 @@ body{
         background-color: var(--main-color);
         color: white;
     }
+        
         .scroller {
             background-color: var(--main-color-title);
             width: 0;
@@ -163,11 +164,15 @@ header nav ul a:hover{
 }
 
 @media (max-width: 767px) {
-   
+
+    .landing{
+
+        background-image: url(../imgs/bv.jpg);
+    }
     .landing .text {
         width: 100%;
     }
-
+    
     .landing .text .content {
         max-width: 100%;
     }
@@ -311,6 +316,7 @@ display: flex;
 }
 .box2 .line i {
     font-size: 25px;
+    font-weight: 900;
     margin-bottom: 50px;
     padding-right: 15px;
     color: #fe0303;
