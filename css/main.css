@@ -164,7 +164,11 @@ header nav ul a:hover{
 }
 
 @media (max-width: 767px) {
-
+    
+    .landing .text  {
+        width: 40%;
+        padding: 30px;
+    }
     .landing{
 
         background-image: url(../imgs/bv.jpg);
@@ -260,13 +264,14 @@ padding: 10px;
     .prog .fro {
         width: 100%;
         margin-bottom: 10px;
-        padding: 60px;
+        padding: 40px;
+        font-size: 18px;
     }
     
     .prog .back {
         width: 100%;
         margin-top: 10px;
-        padding: 60px;
+        padding: 50px;
     }
     .math {
             font-size: 16px;
@@ -328,6 +333,7 @@ display: flex;
 }
 
 @media (max-width: 767px){
+   
     .footer .box {
             flex-direction: column;
         }
@@ -355,9 +361,6 @@ display: flex;
     color: #ffffff;
 }
 
-
-
-
 .copyright{
     height: 60px;
     border-top: 2px solid white;
@@ -367,6 +370,9 @@ display: flex;
     text-align: center;
     margin: 20px 0 0;
 }
+@media (max-width: 767px){
+.copyright{ font-size: 14px;
+}}
 /* end footer  */
 @keyframes change-background {
 
@@ -381,5 +387,7 @@ display: flex;
         color: var(--main-color-title);
     }
 }
+
+
 
 
