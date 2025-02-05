@@ -267,6 +267,9 @@ padding: 10px;
         padding: 40px;
         font-size: 18px;
     }
+    .prog .fro span {
+        font-size: 14px;
+    }
     
     .prog .back {
         width: 100%;
@@ -387,5 +390,6 @@ display: flex;
         color: var(--main-color-title);
     }
 }
+
 
 
